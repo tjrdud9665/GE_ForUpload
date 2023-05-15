@@ -1,0 +1,153 @@
+{
+    "EditorData": "",
+    "TreeData": {
+        "Links": [
+            {
+                "EndPinID": 4,
+                "StartPinID": 2
+            },
+            {
+                "EndPinID": 8,
+                "StartPinID": 5
+            },
+            {
+                "EndPinID": 12,
+                "StartPinID": 9
+            },
+            {
+                "EndPinID": 16,
+                "StartPinID": 9
+            },
+            {
+                "EndPinID": 19,
+                "StartPinID": 13
+            },
+            {
+                "EndPinID": 22,
+                "StartPinID": 13
+            },
+            {
+                "EndPinID": 25,
+                "StartPinID": 13
+            }
+        ],
+        "Nodes": [
+            {
+                "ID": 1,
+                "Inputs": null,
+                "Kind": "Root",
+                "NodeData": "BTCompositeNode_0",
+                "Ordinal": -1,
+                "Outputs": [
+                    {
+                        "ID": 2
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 3,
+                "Inputs": [
+                    {
+                        "ID": 4
+                    }
+                ],
+                "Kind": "Deco",
+                "NodeData": "BTDecoratorNode_BlackBoardCondition_0",
+                "Ordinal": 0,
+                "Outputs": [
+                    {
+                        "ID": 5
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 7,
+                "Inputs": [
+                    {
+                        "ID": 8
+                    }
+                ],
+                "Kind": "Selector",
+                "NodeData": "BTComposite_Selector_0",
+                "Ordinal": 1,
+                "Outputs": [
+                    {
+                        "ID": 9
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 11,
+                "Inputs": [
+                    {
+                        "ID": 12
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_0",
+                "Ordinal": 2,
+                "Outputs": [
+                    {
+                        "ID": 13
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 15,
+                "Inputs": [
+                    {
+                        "ID": 16
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_MoveTo_0",
+                "Ordinal": 6,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 18,
+                "Inputs": [
+                    {
+                        "ID": 19
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_DetectPlayer_0",
+                "Ordinal": 3,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 21,
+                "Inputs": [
+                    {
+                        "ID": 22
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ChasePlayer_0",
+                "Ordinal": 4,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 24,
+                "Inputs": [
+                    {
+                        "ID": 25
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_0",
+                "Ordinal": 5,
+                "Outputs": null,
+                "Type": "Tree"
+            }
+        ]
+    }
+}

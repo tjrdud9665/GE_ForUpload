@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{a43193c4-ec5d-46ed-871f-f15b36bbfa09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientApp">
+      <UniqueIdentifier>{10ffbc6a-8524-4639-a279-1c2c1a82f0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientManager">
+      <UniqueIdentifier>{e39a0b7b-0bce-4503-9f89-5e534eb01d49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientApp.h">
+      <Filter>ClientApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="AITask\BTTaskNode_ActivateAbility.h" />
+    <ClInclude Include="AITask\BTTaskNode_ChasePlayer.h" />
+    <ClInclude Include="AITask\BTTaskNode_DetectPlayer.h" />
+    <ClInclude Include="AITask\BTTaskNode_MoveTo.h" />
+    <ClInclude Include="AITask\BTTaskNode_Patrol.h" />
+    <ClInclude Include="AITask\BTTaskNode_SetAnimPlayRate.h" />
+    <ClInclude Include="AITask\BTTaskNode_Wait.h" />
+    <ClInclude Include="AITask\BTTaskNode_Wait5Seconds.h" />
+    <ClInclude Include="GameObject\BGMPlayer.h" />
+    <ClInclude Include="GameObject\BossMonster.h" />
+    <ClInclude Include="GameObject\HitBoxObject.h" />
+    <ClInclude Include="GameObject\IInteractableInterface.h" />
+    <ClInclude Include="GameObject\InteractableObject.h" />
+    <ClInclude Include="GameObject\Monster.h" />
+    <ClInclude Include="GameObject\MonsterSpawnObject.h" />
+    <ClInclude Include="GameObject\ParticleObject.h" />
+    <ClInclude Include="GameObject\Player.h" />
+    <ClInclude Include="GameObject\PointLightObject.h" />
+    <ClInclude Include="GameObject\TeleportObject.h" />
+    <ClInclude Include="GameObject\TestCharacter.h" />
+    <ClInclude Include="GameObject\TestHitCollison.h" />
+    <ClInclude Include="GameObject\TestMonster.h" />
+    <ClInclude Include="GameObject\TestObject.h" />
+    <ClInclude Include="GameObject\UIInteractableObject.h" />
+    <ClInclude Include="GameplayAbility\BossAttributeSet.h" />
+    <ClInclude Include="GameplayAbility\CharacterAttributeSet.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_Attack.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_ChargeAttack.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_ChargeAttack_HitCancel.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_ComboAttack.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_Evade.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_RunningAttack.h" />
+    <ClInclude Include="GameplayAbility\PlayerSkillAbilliy.h" />
+    <ClInclude Include="GameplayAbility\SampleAttributeSet.h" />
+    <ClInclude Include="GameplayAbility\TestAbility.h" />
+    <ClInclude Include="Notifies\AnimNotify_AddTag.h" />
+    <ClInclude Include="Notifies\AnimNotify_KillOwner.h" />
+    <ClInclude Include="Notifies\AnimNotify_PlaySound.h" />
+    <ClInclude Include="Notifies\AnimNotify_SendEvent.h" />
+    <ClInclude Include="SceneInfo\CustomSceneInfo.h" />
+    <ClInclude Include="UserWidget\BossWidget.h" />
+    <ClInclude Include="UserWidget\CustomUserWidget.h" />
+    <ClInclude Include="UserWidget\DungeonInfoWidget.h" />
+    <ClInclude Include="UserWidget\DungeonUIWidget.h" />
+    <ClInclude Include="UserWidget\EndWidget.h" />
+    <ClInclude Include="UserWidget\InGameWidget.h" />
+    <ClInclude Include="UserWidget\InteractionWidget.h" />
+    <ClInclude Include="UserWidget\TitleWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientApp.cpp">
+      <Filter>ClientApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_ChasePlayer.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_DetectPlayer.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_MoveTo.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_Patrol.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_SetAnimPlayRate.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_Wait.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_Wait5Seconds.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_ActivateAbility.cpp" />
+    <ClCompile Include="GameObject\BGMPlayer.cpp" />
+    <ClCompile Include="GameObject\BossMonster.cpp" />
+    <ClCompile Include="GameObject\HitBoxObject.cpp" />
+    <ClCompile Include="GameObject\InteractableObject.cpp" />
+    <ClCompile Include="GameObject\Monster.cpp" />
+    <ClCompile Include="GameObject\MonsterSpawnObject.cpp" />
+    <ClCompile Include="GameObject\ParticleObject.cpp" />
+    <ClCompile Include="GameObject\Player.cpp" />
+    <ClCompile Include="GameObject\PointLightObject.cpp" />
+    <ClCompile Include="GameObject\TeleportObject.cpp" />
+    <ClCompile Include="GameObject\TestCharacter.cpp" />
+    <ClCompile Include="GameObject\TestHitCollison.cpp" />
+    <ClCompile Include="GameObject\TestMonster.cpp" />
+    <ClCompile Include="GameObject\TestObject.cpp" />
+    <ClCompile Include="GameObject\UIInteractableObject.cpp" />
+    <ClCompile Include="GameplayAbility\BossAttributeSet.cpp" />
+    <ClCompile Include="GameplayAbility\CharacterAttributeSet.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_Attack.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_ChargeAttack.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_ChargeAttack_HitCancel.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_ComboAttack.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_Evade.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_RunningAttack.cpp" />
+    <ClCompile Include="GameplayAbility\PlayerSkillAbilliy.cpp" />
+    <ClCompile Include="GameplayAbility\SampleAttributeSet.cpp" />
+    <ClCompile Include="GameplayAbility\TestAbility.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_AddTag.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_KillOwner.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_PlaySound.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_SendEvent.cpp" />
+    <ClCompile Include="SceneInfo\CustomSceneInfo.cpp" />
+    <ClCompile Include="UserWidget\BossWidget.cpp" />
+    <ClCompile Include="UserWidget\CustomUserWidget.cpp" />
+    <ClCompile Include="UserWidget\DungeonInfoWidget.cpp" />
+    <ClCompile Include="UserWidget\DungeonUIWidget.cpp" />
+    <ClCompile Include="UserWidget\EndWidget.cpp" />
+    <ClCompile Include="UserWidget\InGameWidget.cpp" />
+    <ClCompile Include="UserWidget\InteractionWidget.cpp" />
+    <ClCompile Include="UserWidget\TitleWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameplayAbility\TestAbility.cpp.orig" />
+  </ItemGroup>
+</Project>

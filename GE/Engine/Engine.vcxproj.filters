@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{29a7b10a-16ef-49d1-a809-846943f48c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{9644c03e-4b25-498a-91a5-b526b2fd5f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exports">
+      <UniqueIdentifier>{bf421ce3-def7-492b-a3d7-28aaa6d54c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{3405ab64-1d12-4709-9194-3913fe9f0716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{0b61717f-b0c3-4c5b-b4ff-7623ad53e87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\SharedPtr">
+      <UniqueIdentifier>{e95094af-2689-42d8-930f-6a17d74be61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\XObject">
+      <UniqueIdentifier>{7f76b3ac-a184-4027-a920-2dc29d423452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Reflections">
+      <UniqueIdentifier>{7b68b113-07e4-4be9-8b2d-11a8d484d5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets">
+      <UniqueIdentifier>{de784d22-5515-4077-b159-a081fa709ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{15f4bd06-4c36-4a6e-a9e4-713872a25d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Window">
+      <UniqueIdentifier>{a4348131-9e84-4b66-8b89-104578a431b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Math">
+      <UniqueIdentifier>{58e79a94-f040-4ea5-832d-ad302b816f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer">
+      <UniqueIdentifier>{06394cbf-0900-43cb-941b-1674befbb8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Shader">
+      <UniqueIdentifier>{821e2a1e-9e36-4e22-a9c5-636b3efdd2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\D3D">
+      <UniqueIdentifier>{a970d852-511d-4cf7-8680-f31517d52212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Buffer">
+      <UniqueIdentifier>{7db62ac7-dfa6-45de-a888-31dbf580e983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Path">
+      <UniqueIdentifier>{23374e2f-fbb8-4d5d-9ff0-48b9d1f05059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Serialize">
+      <UniqueIdentifier>{6ff436eb-70ce-479e-a3f6-258b0e8bad7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Texture">
+      <UniqueIdentifier>{0901f3f4-f938-4604-a1ec-0203f35faeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\RenderCommands">
+      <UniqueIdentifier>{e6805b84-2785-4d71-97de-e5902c1da4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Scene">
+      <UniqueIdentifier>{ce94cb7c-4ac2-462a-9613-eed57acbd7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Mesh">
+      <UniqueIdentifier>{6f135e27-271b-4bbd-acac-ab5ac146b496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\GeometryGenerator">
+      <UniqueIdentifier>{55ffdb1d-63f8-433e-872b-69cf80af3fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{df85b381-730d-416f-8801-a6bca70f8a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework">
+      <UniqueIdentifier>{fbf72871-c0f5-48cb-a5fd-4f7888adab03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components">
+      <UniqueIdentifier>{aece39e0-8ef5-4e93-9b7a-cfdef95a32b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent">
+      <UniqueIdentifier>{142569f0-f3e9-4f1a-8f6a-75b093d1089b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject">
+      <UniqueIdentifier>{dd6f99c7-4d66-42a8-8586-02825178b8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management">
+      <UniqueIdentifier>{3ef1d05d-900c-44ea-a452-9d8680995d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\ObjectComponent">
+      <UniqueIdentifier>{0f07785e-469c-4a24-aa2b-bdd6b6eb062a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\RenderPass">
+      <UniqueIdentifier>{20c1df6f-1caa-44a4-82d1-fadf15e113c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent">
+      <UniqueIdentifier>{2e78cd62-daa1-4b46-843d-788965cb1cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Material">
+      <UniqueIdentifier>{ce3eac96-41d0-48d5-b984-8f6a8f39ae68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Texture">
+      <UniqueIdentifier>{669eb6ee-0295-4e56-b026-ee016b2e261f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\CameraComponent">
+      <UniqueIdentifier>{edea1ecc-51b7-4b35-9ad6-51ff017dde76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Importer">
+      <UniqueIdentifier>{4f82c55e-fc8b-472b-90d8-cf68ab7aafd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Mesh\StaticMesh">
+      <UniqueIdentifier>{3d6c0625-8feb-4c06-9380-7ae1816317dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\LightComponent">
+      <UniqueIdentifier>{bf8d693b-8e98-4fb8-95e5-8d50c02a27b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Mesh\Skeleton">
+      <UniqueIdentifier>{94d82c77-4886-40cc-93bc-42393a8d5841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Mesh\SkeletalMesh">
+      <UniqueIdentifier>{291081c3-3ce0-4f7e-9277-a91f7f586e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Animation">
+      <UniqueIdentifier>{070b8475-74c9-4a75-98fa-041cbe2f86a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\SkeletalMeshComponent">
+      <UniqueIdentifier>{1bdb42ea-4a12-467f-a7f3-a63772800a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Mesh\SkeletalMesh\MeshSocket">
+      <UniqueIdentifier>{f7b95183-1eff-42ed-978a-9b2cbb4d6b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Lights">
+      <UniqueIdentifier>{1120d4c3-c78a-4f9b-a371-706e66cd103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\LightComponent\PointLight">
+      <UniqueIdentifier>{6d1c59d8-f8cb-4bea-bd08-214e512aebcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\LightComponent\DirectionalLight">
+      <UniqueIdentifier>{6e1b9850-cf96-4262-8fa8-95717546a512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\LightComponent\SpotLight">
+      <UniqueIdentifier>{7a8233c0-0763-4c73-89c6-aa38d3bc0dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\StaticMeshComponent">
+      <UniqueIdentifier>{446e36ae-1fd6-4ee4-be28-11b4ecd8d593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\SkyBox">
+      <UniqueIdentifier>{706b0c2a-4251-442f-8415-cff1ec5fee30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\SkyComponent">
+      <UniqueIdentifier>{f26437de-1599-434a-8185-b27fb6f93725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{a6a73db2-dc24-4309-911b-7547fcae0ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Recast">
+      <UniqueIdentifier>{5c68dab3-bd3e-4702-a144-4863fc125a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DetourTileCache">
+      <UniqueIdentifier>{96e6bd06-7e04-414c-b3d5-f2d2ded13c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DetourCrowd">
+      <UniqueIdentifier>{38d352c1-5380-470b-bbc6-d8d5d4bf71a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Detour">
+      <UniqueIdentifier>{617866a8-ef5e-437d-a738-926b90dff9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DebugUtils">
+      <UniqueIdentifier>{981bee35-39b6-49d4-a3ee-32f72e02b7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Navgation">
+      <UniqueIdentifier>{8e0e42fc-8472-4954-a1fb-d9040afd3fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{a6a67f5e-c1d8-4984-852e-a5f2ffc0452e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\AssetManager">
+      <UniqueIdentifier>{968f7d9b-8769-4083-b3dc-52df5ddbdbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\CameraManager%28PerScene%29">
+      <UniqueIdentifier>{32385a17-509e-4f0a-a351-6def2b0c6362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\ObjectManager%28PerScene%29">
+      <UniqueIdentifier>{5791a2e3-80d9-4fdf-9641-6b06eb57a16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\SceneManager">
+      <UniqueIdentifier>{8b7576b7-11f2-4718-9414-bb9ff70bd1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\RenderManager">
+      <UniqueIdentifier>{142dc785-a42e-45d4-b11e-b4a70ddfbfb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\CollisionManager">
+      <UniqueIdentifier>{ef2366e3-40de-42c8-854c-ba5b6d363710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Navgation\RecastInputMesh">
+      <UniqueIdentifier>{8ebb2de7-cbb3-4418-acd2-12d31933b445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\ObjectComponent\MovementComponent">
+      <UniqueIdentifier>{b9520f40-7499-4321-b534-43ee59e2ed1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Character">
+      <UniqueIdentifier>{e4c167c0-6334-4ea6-a8e5-cd5cad5f82c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{6fdfc116-66b9-4bcc-aca0-1f5da9db1aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\ObjectComponent\MovementComponent\NavMovement">
+      <UniqueIdentifier>{6482a94a-bd0f-4b65-b042-7bc62eca348f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Controller">
+      <UniqueIdentifier>{dafa490c-49b1-47a1-aa22-33eab7f80be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Nav">
+      <UniqueIdentifier>{46396bfa-dba7-4dd2-862e-452a48b1f3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Navgation\InputGeo">
+      <UniqueIdentifier>{cca9c06e-7259-4b7f-be64-a15293845eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\TargetArmComponent">
+      <UniqueIdentifier>{ee0005ed-fdcf-4b4b-a95d-540b25875819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Character\PlayerCharacter">
+      <UniqueIdentifier>{6203b608-1c97-43dd-b8ec-17c74980540a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\SceneInfo">
+      <UniqueIdentifier>{28823aba-74ea-41e7-8038-56077ec8f51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Controller\PlayerController">
+      <UniqueIdentifier>{dc0ee519-3497-4c23-b39f-11bce3137913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\PlayerStart">
+      <UniqueIdentifier>{0eed9872-662a-45fe-956c-7ce9240c13c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent">
+      <UniqueIdentifier>{a61c886f-fdf1-488f-b276-29f161ead8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\BoxComponent">
+      <UniqueIdentifier>{744f46d8-a0ae-4502-8682-3061145e04fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\SphereComponent">
+      <UniqueIdentifier>{edff30d6-441e-4347-a580-2bd37556c241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\CapsuleComponent">
+      <UniqueIdentifier>{13ecc236-e032-48c0-9577-1a5f0751b05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameplaySystem">
+      <UniqueIdentifier>{b95b7a44-59d6-4508-80a7-32b6f8a2d7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\ObjectComponent\AbilityComponent">
+      <UniqueIdentifier>{1d37f7fd-1517-4520-a1d3-dde39edb2a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\GameplaySystem">
+      <UniqueIdentifier>{e90a114a-07a8-4964-8a1a-9df693a74911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\GameplaySystem\GameplayAbility">
+      <UniqueIdentifier>{052f8eca-d460-42d5-b7d2-77a4e75f683b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\GameplaySystem\GameplayEffect">
+      <UniqueIdentifier>{44070c3a-469d-428b-b250-37c9dedbd99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\StaticMeshObject">
+      <UniqueIdentifier>{52287a7e-10e6-45f5-94de-6ccd3d71685d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\ObjectComponent\MovementComponent\NavMovement\CharacterMovementComponent">
+      <UniqueIdentifier>{c0246f8e-2be9-48bf-8c80-17a745b6cfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\AI">
+      <UniqueIdentifier>{20030e06-7cfc-4a01-b3d5-a74771aefa28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\GameObject\Controller\AIController">
+      <UniqueIdentifier>{7cf9f442-f95f-4a71-bee8-ac3c4a617dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\AI\BlackBoard">
+      <UniqueIdentifier>{267d283a-8573-4b0e-99d9-4f36b32afd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\AI\BehaviorTree">
+      <UniqueIdentifier>{faef1c59-9056-48a4-a8c4-288ff3ceee8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\SoundManager">
+      <UniqueIdentifier>{875c358d-8071-4df9-b6ed-3821d9e4fe89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Sound">
+      <UniqueIdentifier>{71bd46b3-a630-4b3b-88a3-20c6a8a2df20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\CustomAsset">
+      <UniqueIdentifier>{34f0ddb7-1154-4480-bc23-54f7e18897fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\UIManager">
+      <UniqueIdentifier>{999f6edb-f129-4c95-ad5c-e78720982e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Font">
+      <UniqueIdentifier>{f6f2900a-00f0-409c-9004-6d275c6d8bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\SceneViewport">
+      <UniqueIdentifier>{aecad82f-6eb5-42c2-b01b-369ee058c30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget">
+      <UniqueIdentifier>{4d000aae-f6d0-4a38-a8dc-a49cb26ba611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget">
+      <UniqueIdentifier>{3ac7ca13-bb18-40ec-97d2-7daa3844369d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\Canvas">
+      <UniqueIdentifier>{289bcbec-05ae-4d7d-afc8-484661249497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\Content">
+      <UniqueIdentifier>{24f817aa-6908-49ba-b04e-2da6b0594105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Image">
+      <UniqueIdentifier>{879c262c-20de-4bb0-8496-8ec100480c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\UniformGrid">
+      <UniqueIdentifier>{7bc74847-4a32-4492-a0ff-87c519ceeeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\ScrollBox">
+      <UniqueIdentifier>{a54ca228-35a4-440a-98c6-3e9b3325e14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\Content\SizeBox">
+      <UniqueIdentifier>{438f1c26-5f4b-47d2-be36-00c07bd50a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots">
+      <UniqueIdentifier>{d0f40131-c643-45b2-8245-0f491ea5420e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\CanvasSlot">
+      <UniqueIdentifier>{0f74be9b-a2a2-47d2-b225-f0a182ab55d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\Overlay">
+      <UniqueIdentifier>{030bb0af-bb7c-4212-9319-4c649b92a798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\HorizontalSlot">
+      <UniqueIdentifier>{92cd0112-b9ec-4407-b032-0c1e40778c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\VerticalSlot">
+      <UniqueIdentifier>{2d4787fe-814e-45c0-a84a-41483aec1f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\ScrollBoxSlot">
+      <UniqueIdentifier>{c2504fd9-71a4-433d-bd4b-c58f5fc79bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\UniformGridSlot">
+      <UniqueIdentifier>{7e444653-b04b-4642-932e-c198f31725c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\SizeBoxSlot">
+      <UniqueIdentifier>{06e5b28b-1927-47a5-b52a-df5ea9700805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\Content\Button">
+      <UniqueIdentifier>{c33e72ea-cab5-4482-ad3b-63e566658034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\Slots\ButtonSlot">
+      <UniqueIdentifier>{c6d9d613-f818-484f-ba12-498d97565d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\ProgressBar">
+      <UniqueIdentifier>{eedf09a1-4176-40d8-bd95-c3ed4189457b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\Overlay">
+      <UniqueIdentifier>{e11d4ace-8cb2-4983-9153-371a390fd6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\VertivalBox%28notWorked%29">
+      <UniqueIdentifier>{e1a0b422-d127-41c1-a0ac-d9d96056ff65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Widget\PanelWidget\HorizontalBox">
+      <UniqueIdentifier>{1643492c-3259-4fac-be74-dd7a209a1219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Particle">
+      <UniqueIdentifier>{5dc41e7f-2cd0-44d3-a86f-33a28883b51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFramework\Components\SceneComponent\ParticleComponent">
+      <UniqueIdentifier>{bd2026a5-0472-4a32-8a2b-f649dbcfb320}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnginePCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMacros.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPtr\TSharedPtr.h">
+      <Filter>Utils\SharedPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="XObject\XObject.h">
+      <Filter>Engine\Core\XObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\EnumTypes.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Property.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\PropertyHandle.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Reflection.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionMacro.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionTag.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionTypeTraits.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\TClass.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\TEnum.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\TProperty.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\TPropertyHandle.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\TSubClass.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\XClass.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\XEnum.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\XSubClass.h">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\Json.h">
+      <Filter>Utils\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\Archive.h">
+      <Filter>Utils\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTypes.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineWindow.h">
+      <Filter>Engine\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Flags.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Shader.h">
+      <Filter>Engine\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D\D3DManager.h">
+      <Filter>Engine\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Transform.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\D3DBuffer.h">
+      <Filter>Engine\Renderer\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Path\PathManager.h">
+      <Filter>Engine\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\FileSystem.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\AssetInfo.h">
+      <Filter>Engine\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\AssetData.h">
+      <Filter>Engine\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\D3DTexture.h">
+      <Filter>Engine\Renderer\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderCommands.h">
+      <Filter>Engine\Renderer\RenderCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh\Mesh.h">
+      <Filter>Engine\Assets\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GeometryGenerator.h">
+      <Filter>Engine\Renderer\GeometryGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\ComponentBase.h">
+      <Filter>Engine\GameFramework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\Timer.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\TimerManager.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\TimerHandle.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\SceneComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Scene\Scene.h">
+      <Filter>Engine\Assets\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\GameObject.h">
+      <Filter>Engine\GameFramework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\ObjectComponent.h">
+      <Filter>Engine\GameFramework\Components\ObjectComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderPass.h">
+      <Filter>Engine\Renderer\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Material\Material.h">
+      <Filter>Engine\Assets\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\PrimitiveComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\CameraComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\CameraComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\TextureAsset\TextureAsset.h">
+      <Filter>Engine\Assets\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\FBXLoader.h">
+      <Filter>Engine\Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh\StaticMesh.h">
+      <Filter>Engine\Assets\Mesh\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\LinearColor.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh\Skeleton.h">
+      <Filter>Engine\Assets\Mesh\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh\SkeletalMeshAsset.h">
+      <Filter>Engine\Assets\Mesh\SkeletalMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\SkeletalMeshComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\SkeletalMeshComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Animation\AnimationSequence.h">
+      <Filter>Engine\Assets\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh\MeshAsset.h">
+      <Filter>Engine\Assets\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh\SkeletalMeshSocket.h">
+      <Filter>Engine\Assets\Mesh\SkeletalMesh\MeshSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\LightComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ShadowMapPass.h">
+      <Filter>Engine\Renderer\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\DirectionalLight.h">
+      <Filter>Engine\GameFramework\GameObject\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\DirectionalLightComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent\DirectionalLight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\SpotLightComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent\SpotLight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\PointLightComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent\PointLight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\StaticMeshComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\StaticMeshComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\SkyComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\SkyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\SkyBox.h">
+      <Filter>Engine\GameFramework\GameObject\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\AmbientOcclusionPass.h">
+      <Filter>Engine\Renderer\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Recast\Include\Recast.h">
+      <Filter>ThirdParty\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Recast\Include\RecastAlloc.h">
+      <Filter>ThirdParty\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Recast\Include\RecastAssert.h">
+      <Filter>ThirdParty\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourTileCache\Include\DetourTileCacheBuilder.h">
+      <Filter>ThirdParty\DetourTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourTileCache\Include\DetourTileCache.h">
+      <Filter>ThirdParty\DetourTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourCrowd\Include\DetourLocalBoundary.h">
+      <Filter>ThirdParty\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourCrowd\Include\DetourObstacleAvoidance.h">
+      <Filter>ThirdParty\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourCrowd\Include\DetourPathCorridor.h">
+      <Filter>ThirdParty\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourCrowd\Include\DetourPathQueue.h">
+      <Filter>ThirdParty\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourCrowd\Include\DetourProximityGrid.h">
+      <Filter>ThirdParty\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DetourCrowd\Include\DetourCrowd.h">
+      <Filter>ThirdParty\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourCommon.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourMath.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourNavMesh.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourNavMeshBuilder.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourNavMeshQuery.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourNode.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourStatus.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourAlloc.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\Detour\Include\DetourAssert.h">
+      <Filter>ThirdParty\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DebugUtils\Include\DetourDebugDraw.h">
+      <Filter>ThirdParty\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DebugUtils\Include\RecastDebugDraw.h">
+      <Filter>ThirdParty\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DebugUtils\Include\RecastDump.h">
+      <Filter>ThirdParty\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\navRecast\DebugUtils\Include\DebugDraw.h">
+      <Filter>ThirdParty\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsSystem.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsDebugDraw.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\BulletPhysicsHelper.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\ShapeComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Engine\Management\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Engine\Management\CameraManager%28PerScene%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Engine\Management\ObjectManager%28PerScene%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\Management\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Engine\Management\RenderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Engine\Management\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\BoxComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\BoxComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\SphereComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\SphereComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\CapsuleComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\CapsuleComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\MovementComponent.h">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\MovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\Character.h">
+      <Filter>Engine\GameFramework\GameObject\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputHandle.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\NavMovementComponent.h">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\MovementComponent\NavMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\Controller.h">
+      <Filter>Engine\GameFramework\GameObject\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsMisc.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\NavMeshBoundsVolume.h">
+      <Filter>Engine\GameFramework\GameObject\Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\InputGeom.h">
+      <Filter>Engine\Navgation\RecastInputMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\ChunkyTriMesh.h">
+      <Filter>Engine\Navgation\RecastInputMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\NavGeoMesh.h">
+      <Filter>Engine\Navgation\InputGeo</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\TargetArmComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\TargetArmComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\PlayerCharacter.h">
+      <Filter>Engine\GameFramework\GameObject\Character\PlayerCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\SceneInfo\SceneInfo.h">
+      <Filter>Engine\Assets\SceneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\PlayerController.h">
+      <Filter>Engine\GameFramework\GameObject\Controller\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\PlayerStart.h">
+      <Filter>Engine\GameFramework\GameObject\PlayerStart</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\FrustumPlaneset.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\fastlz.h">
+      <Filter>Engine\Navgation\RecastInputMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Animation\AnimNotify.h">
+      <Filter>Engine\Assets\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplaySystem\GameplaySystem.h">
+      <Filter>Engine\GameplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\AbilityComponent.h">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\AbilityComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplaySystem\AttributeSet.h">
+      <Filter>Engine\GameplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\GameplayEffect\GameplayEffect.h">
+      <Filter>Engine\Assets\GameplaySystem\GameplayEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\GameplayAbility\GameplayAbility.h">
+      <Filter>Engine\Assets\GameplaySystem\GameplayAbility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\StaticMeshObject.h">
+      <Filter>Engine\GameFramework\GameObject\StaticMeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\CharacterMovementComponent.h">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\MovementComponent\NavMovement\CharacterMovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\NavigationSystem.h">
+      <Filter>Engine\Navgation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\GameObject\AIController.h">
+      <Filter>Engine\GameFramework\GameObject\Controller\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\AI\BehaviorTree.h">
+      <Filter>Engine\Assets\AI\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\AI\BlackBoard.h">
+      <Filter>Engine\Assets\AI\BlackBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Engine\Management\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Sound\Sound.h">
+      <Filter>Engine\Assets\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.h">
+      <Filter>Engine\Management\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Font\FontAsset.h">
+      <Filter>Engine\Assets\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneViewport.h">
+      <Filter>Engine\Management\SceneViewport</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\TextBlock.h">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\UserWidget.h">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\Widget.h">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\WidgetTree.h">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\CanvasPanel.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\HorizontalBox.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\HorizontalBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\VerticalBox.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\VertivalBox%28notWorked%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ImageWidget.h">
+      <Filter>Engine\Assets\Widget\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\UnifromGridPanel.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\UniformGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ScrollBox.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\ScrollBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\PanelWidget.h">
+      <Filter>Engine\Assets\Widget\PanelWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\CanvasPanelSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\CanvasSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\OverlaySlot.h">
+      <Filter>Engine\Assets\Widget\Slots\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\PanelSlot.h">
+      <Filter>Engine\Assets\Widget\Slots</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\HorizontalBoxSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\HorizontalSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\VerticalBoxSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\VerticalSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ContentWidget.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ScrollBoxSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\ScrollBoxSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\UniformGridSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\UniformGridSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\SizeBoxSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\SizeBoxSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\SizeBox.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\Content\SizeBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ButtonWidget.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\Content\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ButtonSlot.h">
+      <Filter>Engine\Assets\Widget\Slots\ButtonSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\ProgressBar.h">
+      <Filter>Engine\Assets\Widget\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Widget\Overlay.h">
+      <Filter>Engine\Assets\Widget\PanelWidget\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Particle\ParticleAsset.h">
+      <Filter>Engine\Assets\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework\Components\ParticleComponent.h">
+      <Filter>Engine\GameFramework\Components\SceneComponent\ParticleComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplaySystem\GameInstance.h">
+      <Filter>Engine\GameplaySystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EnginePCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedPtr\TSharedPtr.cpp">
+      <Filter>Utils\SharedPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="XObject\XObject.cpp">
+      <Filter>Engine\Core\XObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Property.cpp">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\PropertyHandle.cpp">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\TProperty.cpp">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\TPropertyHandle.cpp">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\XClass.cpp">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\XSubClass.cpp">
+      <Filter>Engine\Core\Reflections</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\Archive.cpp">
+      <Filter>Utils\Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineWindow.cpp">
+      <Filter>Engine\Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathUtils.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Shader.cpp">
+      <Filter>Engine\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D\D3DManager.cpp">
+      <Filter>Engine\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Transform.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\D3DBuffer.cpp">
+      <Filter>Engine\Renderer\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Path\PathManager.cpp">
+      <Filter>Engine\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\FileSystem.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\AssetInfo.cpp">
+      <Filter>Engine\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\AssetData.cpp">
+      <Filter>Engine\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\D3DTexture.cpp">
+      <Filter>Engine\Renderer\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderCommands.cpp">
+      <Filter>Engine\Renderer\RenderCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh\Mesh.cpp">
+      <Filter>Engine\Assets\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GeometryGenerator.cpp">
+      <Filter>Engine\Renderer\GeometryGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\ComponentBase.cpp">
+      <Filter>Engine\GameFramework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\Timer.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\TimerManager.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\TimerHandle.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\SceneComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Scene\Scene.cpp">
+      <Filter>Engine\Assets\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\GameObject.cpp">
+      <Filter>Engine\GameFramework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\ObjectComponent.cpp">
+      <Filter>Engine\GameFramework\Components\ObjectComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderPass.cpp">
+      <Filter>Engine\Renderer\RenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Material\Material.cpp">
+      <Filter>Engine\Assets\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\PrimitiveComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\CameraComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\CameraComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\TextureAsset\TextureAsset.cpp">
+      <Filter>Engine\Assets\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Importer\FBXLoader.cpp">
+      <Filter>Engine\Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh\StaticMesh.cpp">
+      <Filter>Engine\Assets\Mesh\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\LinearColor.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh\Skeleton.cpp">
+      <Filter>Engine\Assets\Mesh\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh\SkeletalMeshAsset.cpp">
+      <Filter>Engine\Assets\Mesh\SkeletalMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\SkeletalMeshComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\SkeletalMeshComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Animation\AnimationSequence.cpp">
+      <Filter>Engine\Assets\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh\MeshAsset.cpp">
+      <Filter>Engine\Assets\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh\SkeletalMeshSocket.cpp">
+      <Filter>Engine\Assets\Mesh\SkeletalMesh\MeshSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\LightComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ShadowMapPass.cpp">
+      <Filter>Engine\Renderer\RenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\DirectionalLight.cpp">
+      <Filter>Engine\GameFramework\GameObject\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\DirectionalLightComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent\DirectionalLight</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\SpotLightComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent\SpotLight</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\PointLightComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\LightComponent\PointLight</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\StaticMeshComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\StaticMeshComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\SkyComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\SkyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\SkyBox.cpp">
+      <Filter>Engine\GameFramework\GameObject\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\AmbientOcclusionPass.cpp">
+      <Filter>Engine\Renderer\RenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsSystem.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsDebugDraw.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\ShapeComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Engine\Management\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Engine\Management\CameraManager%28PerScene%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Engine\Management\ObjectManager%28PerScene%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\Management\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Engine\Management\RenderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Engine\Management\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\BoxComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\BoxComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\SphereComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\SphereComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\CapsuleComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\PrimitiveComponent\ShapeComponent\CapsuleComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\MovementComponent.cpp">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\MovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\Character.cpp">
+      <Filter>Engine\GameFramework\GameObject\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputHandle.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\NavMovementComponent.cpp">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\MovementComponent\NavMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\Controller.cpp">
+      <Filter>Engine\GameFramework\GameObject\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsMisc.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\NavMeshBoundsVolume.cpp">
+      <Filter>Engine\GameFramework\GameObject\Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\InputGeom.cpp">
+      <Filter>Engine\Navgation\RecastInputMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\ChunkyTriMesh.cpp">
+      <Filter>Engine\Navgation\RecastInputMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\NavGeoMesh.cpp">
+      <Filter>Engine\Navgation\InputGeo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\TargetArmComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\TargetArmComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\PlayerCharacter.cpp">
+      <Filter>Engine\GameFramework\GameObject\Character\PlayerCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\SceneInfo\SceneInfo.cpp">
+      <Filter>Engine\Assets\SceneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\PlayerController.cpp">
+      <Filter>Engine\GameFramework\GameObject\Controller\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\PlayerStart.cpp">
+      <Filter>Engine\GameFramework\GameObject\PlayerStart</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\FrustumPlaneset.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\fastlz.c">
+      <Filter>Engine\Navgation\RecastInputMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Animation\AnimNotify.cpp">
+      <Filter>Engine\Assets\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplaySystem\GameplaySystem.cpp">
+      <Filter>Engine\GameplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\AbilityComponent.cpp">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\AbilityComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplaySystem\AttributeSet.cpp">
+      <Filter>Engine\GameplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\GameplayEffect\GameplayEffect.cpp">
+      <Filter>Engine\Assets\GameplaySystem\GameplayEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\GameplayAbility\GameplayAbility.cpp">
+      <Filter>Engine\Assets\GameplaySystem\GameplayAbility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\StaticMeshObject.cpp">
+      <Filter>Engine\GameFramework\GameObject\StaticMeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\CharacterMovementComponent.cpp">
+      <Filter>Engine\GameFramework\Components\ObjectComponent\MovementComponent\NavMovement\CharacterMovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\NavigationSystem.cpp">
+      <Filter>Engine\Navgation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\GameObject\AIController.cpp">
+      <Filter>Engine\GameFramework\GameObject\Controller\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\AI\BehaviorTree.cpp">
+      <Filter>Engine\Assets\AI\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\AI\BlackBoard.cpp">
+      <Filter>Engine\Assets\AI\BlackBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Engine\Management\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Sound\Sound.cpp">
+      <Filter>Engine\Assets\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>Engine\Management\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Font\FontAsset.cpp">
+      <Filter>Engine\Assets\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneViewport.cpp">
+      <Filter>Engine\Management\SceneViewport</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\TextBlock.cpp">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\UserWidget.cpp">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\Widget.cpp">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\WidgetTree.cpp">
+      <Filter>Engine\Assets\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\CanvasPanel.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\HorizontalBox.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\HorizontalBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\VerticalBox.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\VertivalBox%28notWorked%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ImageWidget.cpp">
+      <Filter>Engine\Assets\Widget\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\UnifromGridPanel.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\UniformGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ScrollBox.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\ScrollBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\PanelWidget.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\CanvasPanelSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\CanvasSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\OverlaySlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\PanelSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\HorizontalBoxSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\HorizontalSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\VerticalBoxSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\VerticalSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ContentWidget.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ScrollBoxSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\ScrollBoxSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\UniformGridSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\UniformGridSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\SizeBoxSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\SizeBoxSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\SizeBox.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\Content\SizeBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ButtonWidget.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\Content\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ButtonSlot.cpp">
+      <Filter>Engine\Assets\Widget\Slots\ButtonSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\ProgressBar.cpp">
+      <Filter>Engine\Assets\Widget\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Widget\Overlay.cpp">
+      <Filter>Engine\Assets\Widget\PanelWidget\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Particle\ParticleAsset.cpp">
+      <Filter>Engine\Assets\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework\Components\ParticleComponent.cpp">
+      <Filter>Engine\GameFramework\Components\SceneComponent\ParticleComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplaySystem\GameInstance.cpp">
+      <Filter>Engine\GameplaySystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

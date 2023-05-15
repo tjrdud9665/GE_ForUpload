@@ -1,0 +1,164 @@
+#include "PCH.h"
+#include "TestAbility.h"
+#include <Assets/Animation/AnimationSequence.h>
+#include <Assets/Mesh/Skeleton.h>
+#include <GameFramework/Components/AbilityComponent.h>
+#include <GameFramework/GameObject/GameObject.h>
+#include <GameFramework/Components/SkeletalMeshComponent.h>
+
+
+<<<<<<< HEAD
+//TestAbility::TestAbility()
+//{
+//	
+//}
+//
+//TestAbility::TestAbility(const TestAbility& Other)
+//	:Super(Other)	
+//	, BuffTest(Other.BuffTest)	
+//	, m_CurrentComboCount(0)
+//{
+//	size_t comboCount = Other.ComboAnims.size();
+//
+//	ComboAnims.resize(comboCount);
+//
+//	for(size_t i =0;i<comboCount;i++)
+//	{
+//		ComboAnims[i] = Other.ComboAnims[i];
+//
+//	}
+//}
+//
+//TestAbility::~TestAbility()
+//{
+//
+//}
+//
+//void TestAbility::OnReceivedGameplayEvent(const std::string& EventName, SGameplayEventData*& EventData, const SGameplayAbilitySpec& InSpec)
+//{
+//	//if(EventName == "Buff")
+//	//{		
+//	//	AbilityComponent* srcComp = m_ObjectInfo.OwnerComponent;
+//	//	if(srcComp)
+//	//		srcComp->ApplyGameplayEffectToSelt(BuffTest);
+//	//
+//	//}
+//	//if(EventName == "PlayNext")
+//	//{		
+//	//	AbilityUtils::PlayAnimation(this, ComboAnims[0], false, true);
+//	//	if (m_ComboEnabled)
+//	//	{
+//	//		//m_CurrentComboCount = SMathUtils::Clamp<int32>(m_CurrentComboCount + 1 , 0,ComboAnims.size() - 1);
+//	//		//AbilityUtils::PlayAnimation(this, ComboAnims[m_CurrentComboCount], false, true);		
+//	//		//m_ComboEnabled = false;
+//	//	}
+//
+//	//}
+//
+//
+//}
+//
+//void TestAbility::OnEndAbility()
+//{
+//	
+//	m_CurrentComboCount = 0;
+//	m_ObjectInfo.OwnerAvatar->SetEnableRootMotion(false);
+//	
+//}
+//
+//void TestAbility::OnActivateAbility(const SGameplayAbilitySpec& InSpec)
+//{
+//	//InSpec.ObjectInfo.OwnerObject->AddTag("Ability", true);
+//	//Add Some Tag 	
+//	if(ComboAnims.size() > 0)
+//		AbilityUtils::PlayAnimation(this, ComboAnims[0], false,true);
+//
+//	//PlayAnimation
+//	//ComboAnims[std::min(ComboAnims.size() - 1, m_CurrentComboCount)]
+//	
+//}
+//
+//void TestAbility::InputPressed(const SGameplayAbilitySpec& InSpec)
+//{
+//	m_ComboEnabled = true;
+//}
+=======
+TestAbility::TestAbility()
+{
+	
+}
+
+TestAbility::TestAbility(const TestAbility& Other)
+	:Super(Other)	
+	, BuffTest(Other.BuffTest)	
+	, m_CurrentComboCount(0)
+{
+	size_t comboCount = Other.ComboAnims.size();
+
+	ComboAnims.resize(comboCount);
+
+	for(size_t i =0;i<comboCount;i++)
+	{
+		ComboAnims[i] = Other.ComboAnims[i];
+
+	}
+}
+
+TestAbility::~TestAbility()
+{
+
+}
+
+void TestAbility::OnReceivedGameplayEvent(const std::string& EventName, SGameplayEventData*& EventData, const SGameplayAbilitySpec& InSpec)
+{
+	if(EventName == "Buff")
+	{		
+		AbilityComponent* srcComp = m_ObjectInfo.OwnerComponent;
+		if(srcComp)
+			srcComp->ApplyGameplayEffectToSelt(BuffTest);
+	
+	}
+	if(EventName == "PlayNext")
+	{		
+		AbilityUtils::PlayAnimation(this, ComboAnims[0], false, true,false);
+		if (m_ComboEnabled)
+		{
+			//m_CurrentComboCount = SMathUtils::Clamp<int32>(m_CurrentComboCount + 1 , 0,ComboAnims.size() - 1);
+			//AbilityUtils::PlayAnimation(this, ComboAnims[m_CurrentComboCount], false, true);		
+			//m_ComboEnabled = false;
+		}
+	}
+	else if(EventName == "PlayBack")
+	{
+		AbilityUtils::PlayAnimation(this, ComboAnims[0], false, true, false,true);
+	}
+
+
+
+}
+
+void TestAbility::OnEndAbility()
+{
+	
+	m_CurrentComboCount = 0;
+	m_ObjectInfo.OwnerAvatar->SetEnableRootMotion(false);
+	
+}
+
+void TestAbility::OnActivateAbility(const SGameplayAbilitySpec& InSpec)
+{
+	//InSpec.ObjectInfo.OwnerObject->AddTag("Ability", true);
+	//Add Some Tag 	
+	if(ComboAnims.size() > 0)
+		AbilityUtils::PlayAnimation(this, ComboAnims[0], false, true, false);
+
+	//PlayAnimation
+	//ComboAnims[std::min(ComboAnims.size() - 1, m_CurrentComboCount)]
+	
+}
+
+void TestAbility::InputPressed(const SGameplayAbilitySpec& InSpec)
+{
+	m_ComboEnabled = true;
+}
+>>>>>>> origin/master

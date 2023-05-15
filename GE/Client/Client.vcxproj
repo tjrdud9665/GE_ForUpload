@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6926413c-b7d2-4dbb-a99d-d9a9737278cf}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\binaries\</OutDir>
+    <IntDir>..\binaries\obj\debug\client\</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <IncludePath>$(SolutionDir)Engine\;$(SolutionDir)third_party\IMGUI\;$(SolutionDir)Client\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\third_party\libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\binaries\</OutDir>
+    <IntDir>..\binaries\obj\release\client\</IntDir>
+    <IncludePath>$(SolutionDir)Engine\;$(SolutionDir)third_party\IMGUI\;$(SolutionDir)Client\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\third_party\libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>..\third_party\directx_shader_compiler;..\third_party\assimp;..\third_party\fmod;..\third_party\JSON;..\third_party\IMGUI;..\third_party\DirectTex;..\Engine\;..\third_party\bullet;..\third_party\navRecast\DebugUtils\Include\;..\third_party\navRecast\Detour\Include\;..\third_party\navRecast\DetourCrowd\Include\;..\third_party\navRecast\DetourTileCache\Include\;..\third_party\navRecast\Recast\Include\;..\third_party\free_type;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\third_party\directx_shader_compiler;..\third_party\assimp;..\third_party\fmod;..\third_party\JSON;..\third_party\IMGUI;..\third_party\DirectTex;..\Engine\;..\third_party\bullet;..\third_party\navRecast\DebugUtils\Include\;..\third_party\navRecast\Detour\Include\;..\third_party\navRecast\DetourCrowd\Include\;..\third_party\navRecast\DetourTileCache\Include\;..\third_party\navRecast\Recast\Include\;..\third_party\free_type;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AITask\BTTaskNode_ActivateAbility.h" />
+    <ClInclude Include="AITask\BTTaskNode_ChasePlayer.h" />
+    <ClInclude Include="AITask\BTTaskNode_DetectPlayer.h" />
+    <ClInclude Include="AITask\BTTaskNode_MoveTo.h" />
+    <ClInclude Include="AITask\BTTaskNode_Patrol.h" />
+    <ClInclude Include="AITask\BTTaskNode_SetAnimPlayRate.h" />
+    <ClInclude Include="AITask\BTTaskNode_Wait.h" />
+    <ClInclude Include="AITask\BTTaskNode_Wait5Seconds.h" />
+    <ClInclude Include="ClientApp.h" />
+    <ClInclude Include="ClientManager.h" />
+    <ClInclude Include="GameObject\BGMPlayer.h" />
+    <ClInclude Include="GameObject\BossMonster.h" />
+    <ClInclude Include="GameObject\HitBoxObject.h" />
+    <ClInclude Include="GameObject\IInteractableInterface.h" />
+    <ClInclude Include="GameObject\InteractableObject.h" />
+    <ClInclude Include="GameObject\Monster.h" />
+    <ClInclude Include="GameObject\MonsterSpawnObject.h" />
+    <ClInclude Include="GameObject\ParticleObject.h" />
+    <ClInclude Include="GameObject\Player.h" />
+    <ClInclude Include="GameObject\PointLightObject.h" />
+    <ClInclude Include="GameObject\TeleportObject.h" />
+    <ClInclude Include="GameObject\TestCharacter.h" />
+    <ClInclude Include="GameObject\TestHitCollison.h" />
+    <ClInclude Include="GameObject\TestMonster.h" />
+    <ClInclude Include="GameObject\TestObject.h" />
+    <ClInclude Include="GameObject\UIInteractableObject.h" />
+    <ClInclude Include="GameplayAbility\BossAttributeSet.h" />
+    <ClInclude Include="GameplayAbility\CharacterAttributeSet.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_Attack.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_ChargeAttack.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_ChargeAttack_HitCancel.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_ComboAttack.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_Evade.h" />
+    <ClInclude Include="GameplayAbility\GameplayAbility_RunningAttack.h" />
+    <ClInclude Include="GameplayAbility\PlayerSkillAbilliy.h" />
+    <ClInclude Include="GameplayAbility\SampleAttributeSet.h" />
+    <ClInclude Include="GameplayAbility\TestAbility.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Notifies\AnimNotify_AddTag.h" />
+    <ClInclude Include="Notifies\AnimNotify_KillOwner.h" />
+    <ClInclude Include="Notifies\AnimNotify_PlaySound.h" />
+    <ClInclude Include="Notifies\AnimNotify_SendEvent.h" />
+    <ClInclude Include="PCH.h" />
+    <ClInclude Include="SceneInfo\CustomSceneInfo.h" />
+    <ClInclude Include="UserWidget\BossWidget.h" />
+    <ClInclude Include="UserWidget\CustomUserWidget.h" />
+    <ClInclude Include="UserWidget\DungeonInfoWidget.h" />
+    <ClInclude Include="UserWidget\DungeonUIWidget.h" />
+    <ClInclude Include="UserWidget\EndWidget.h" />
+    <ClInclude Include="UserWidget\InGameWidget.h" />
+    <ClInclude Include="UserWidget\InteractionWidget.h" />
+    <ClInclude Include="UserWidget\TitleWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AITask\BTTaskNode_ActivateAbility.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_ChasePlayer.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_DetectPlayer.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_MoveTo.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_Patrol.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_SetAnimPlayRate.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_Wait.cpp" />
+    <ClCompile Include="AITask\BTTaskNode_Wait5Seconds.cpp" />
+    <ClCompile Include="ClientApp.cpp" />
+    <ClCompile Include="ClientManager.cpp" />
+    <ClCompile Include="GameObject\BGMPlayer.cpp" />
+    <ClCompile Include="GameObject\BossMonster.cpp" />
+    <ClCompile Include="GameObject\HitBoxObject.cpp" />
+    <ClCompile Include="GameObject\InteractableObject.cpp" />
+    <ClCompile Include="GameObject\Monster.cpp" />
+    <ClCompile Include="GameObject\MonsterSpawnObject.cpp" />
+    <ClCompile Include="GameObject\ParticleObject.cpp" />
+    <ClCompile Include="GameObject\Player.cpp" />
+    <ClCompile Include="GameObject\PointLightObject.cpp" />
+    <ClCompile Include="GameObject\TeleportObject.cpp" />
+    <ClCompile Include="GameObject\TestCharacter.cpp" />
+    <ClCompile Include="GameObject\TestHitCollison.cpp" />
+    <ClCompile Include="GameObject\TestMonster.cpp" />
+    <ClCompile Include="GameObject\TestObject.cpp" />
+    <ClCompile Include="GameObject\UIInteractableObject.cpp" />
+    <ClCompile Include="GameplayAbility\BossAttributeSet.cpp" />
+    <ClCompile Include="GameplayAbility\CharacterAttributeSet.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_Attack.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_ChargeAttack.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_ChargeAttack_HitCancel.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_ComboAttack.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_Evade.cpp" />
+    <ClCompile Include="GameplayAbility\GameplayAbility_RunningAttack.cpp" />
+    <ClCompile Include="GameplayAbility\PlayerSkillAbilliy.cpp" />
+    <ClCompile Include="GameplayAbility\SampleAttributeSet.cpp" />
+    <ClCompile Include="GameplayAbility\TestAbility.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_AddTag.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_KillOwner.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_PlaySound.cpp" />
+    <ClCompile Include="Notifies\AnimNotify_SendEvent.cpp" />
+    <ClCompile Include="PCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SceneInfo\CustomSceneInfo.cpp" />
+    <ClCompile Include="UserWidget\BossWidget.cpp" />
+    <ClCompile Include="UserWidget\CustomUserWidget.cpp" />
+    <ClCompile Include="UserWidget\DungeonInfoWidget.cpp" />
+    <ClCompile Include="UserWidget\DungeonUIWidget.cpp" />
+    <ClCompile Include="UserWidget\EndWidget.cpp" />
+    <ClCompile Include="UserWidget\InGameWidget.cpp" />
+    <ClCompile Include="UserWidget\InteractionWidget.cpp" />
+    <ClCompile Include="UserWidget\TitleWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameplayAbility\TestAbility.cpp.orig" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

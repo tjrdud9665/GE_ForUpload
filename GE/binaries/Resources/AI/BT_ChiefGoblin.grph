@@ -1,0 +1,605 @@
+{
+    "EditorData": "",
+    "TreeData": {
+        "Links": [
+            {
+                "EndPinID": 4,
+                "StartPinID": 2
+            },
+            {
+                "EndPinID": 8,
+                "StartPinID": 5
+            },
+            {
+                "EndPinID": 12,
+                "StartPinID": 9
+            },
+            {
+                "EndPinID": 16,
+                "StartPinID": 13
+            },
+            {
+                "EndPinID": 20,
+                "StartPinID": 17
+            },
+            {
+                "EndPinID": 24,
+                "StartPinID": 17
+            },
+            {
+                "EndPinID": 27,
+                "StartPinID": 21
+            },
+            {
+                "EndPinID": 30,
+                "StartPinID": 21
+            },
+            {
+                "EndPinID": 33,
+                "StartPinID": 21
+            },
+            {
+                "EndPinID": 36,
+                "StartPinID": 9
+            },
+            {
+                "EndPinID": 40,
+                "StartPinID": 37
+            },
+            {
+                "EndPinID": 44,
+                "StartPinID": 41
+            },
+            {
+                "EndPinID": 48,
+                "StartPinID": 41
+            },
+            {
+                "EndPinID": 51,
+                "StartPinID": 45
+            },
+            {
+                "EndPinID": 54,
+                "StartPinID": 45
+            },
+            {
+                "EndPinID": 58,
+                "StartPinID": 55
+            },
+            {
+                "EndPinID": 61,
+                "StartPinID": 55
+            },
+            {
+                "EndPinID": 64,
+                "StartPinID": 55
+            },
+            {
+                "EndPinID": 67,
+                "StartPinID": 55
+            },
+            {
+                "EndPinID": 88,
+                "StartPinID": 9
+            },
+            {
+                "EndPinID": 92,
+                "StartPinID": 89
+            },
+            {
+                "EndPinID": 96,
+                "StartPinID": 93
+            },
+            {
+                "EndPinID": 100,
+                "StartPinID": 93
+            },
+            {
+                "EndPinID": 103,
+                "StartPinID": 97
+            },
+            {
+                "EndPinID": 107,
+                "StartPinID": 104
+            },
+            {
+                "EndPinID": 110,
+                "StartPinID": 104
+            },
+            {
+                "EndPinID": 114,
+                "StartPinID": 111
+            },
+            {
+                "EndPinID": 117,
+                "StartPinID": 111
+            },
+            {
+                "EndPinID": 120,
+                "StartPinID": 111
+            },
+            {
+                "EndPinID": 123,
+                "StartPinID": 111
+            },
+            {
+                "EndPinID": 126,
+                "StartPinID": 111
+            }
+        ],
+        "Nodes": [
+            {
+                "ID": 1,
+                "Inputs": null,
+                "Kind": "Root",
+                "NodeData": "BTCompositeNode_0",
+                "Ordinal": -1,
+                "Outputs": [
+                    {
+                        "ID": 2
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 3,
+                "Inputs": [
+                    {
+                        "ID": 4
+                    }
+                ],
+                "Kind": "Deco",
+                "NodeData": "BTDecoratorNode_BlackBoardCondition_0",
+                "Ordinal": 0,
+                "Outputs": [
+                    {
+                        "ID": 5
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 7,
+                "Inputs": [
+                    {
+                        "ID": 8
+                    }
+                ],
+                "Kind": "Selector",
+                "NodeData": "BTComposite_Selector_0",
+                "Ordinal": 1,
+                "Outputs": [
+                    {
+                        "ID": 9
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 11,
+                "Inputs": [
+                    {
+                        "ID": 12
+                    }
+                ],
+                "Kind": "Deco",
+                "NodeData": "BTDecoratorNode_BlackBoardCondition_1",
+                "Ordinal": 24,
+                "Outputs": [
+                    {
+                        "ID": 13
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 15,
+                "Inputs": [
+                    {
+                        "ID": 16
+                    }
+                ],
+                "Kind": "Selector",
+                "NodeData": "BTComposite_Selector_1",
+                "Ordinal": 25,
+                "Outputs": [
+                    {
+                        "ID": 17
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 19,
+                "Inputs": [
+                    {
+                        "ID": 20
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_0",
+                "Ordinal": 26,
+                "Outputs": [
+                    {
+                        "ID": 21
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 23,
+                "Inputs": [
+                    {
+                        "ID": 24
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_MoveTo_0",
+                "Ordinal": 30,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 26,
+                "Inputs": [
+                    {
+                        "ID": 27
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_DetectPlayer_0",
+                "Ordinal": 27,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 29,
+                "Inputs": [
+                    {
+                        "ID": 30
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ChasePlayer_0",
+                "Ordinal": 28,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 32,
+                "Inputs": [
+                    {
+                        "ID": 33
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_0",
+                "Ordinal": 29,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 35,
+                "Inputs": [
+                    {
+                        "ID": 36
+                    }
+                ],
+                "Kind": "Deco",
+                "NodeData": "BTDecoratorNode_BlackBoardCondition_2",
+                "Ordinal": 14,
+                "Outputs": [
+                    {
+                        "ID": 37
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 39,
+                "Inputs": [
+                    {
+                        "ID": 40
+                    }
+                ],
+                "Kind": "Selector",
+                "NodeData": "BTComposite_Selector_2",
+                "Ordinal": 15,
+                "Outputs": [
+                    {
+                        "ID": 41
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 43,
+                "Inputs": [
+                    {
+                        "ID": 44
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_1",
+                "Ordinal": 16,
+                "Outputs": [
+                    {
+                        "ID": 45
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 47,
+                "Inputs": [
+                    {
+                        "ID": 48
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_MoveTo_1",
+                "Ordinal": 23,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 50,
+                "Inputs": [
+                    {
+                        "ID": 51
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_1",
+                "Ordinal": 17,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 53,
+                "Inputs": [
+                    {
+                        "ID": 54
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_2",
+                "Ordinal": 18,
+                "Outputs": [
+                    {
+                        "ID": 55
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 57,
+                "Inputs": [
+                    {
+                        "ID": 58
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_DetectPlayer_1",
+                "Ordinal": 19,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 60,
+                "Inputs": [
+                    {
+                        "ID": 61
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ChasePlayer_1",
+                "Ordinal": 20,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 63,
+                "Inputs": [
+                    {
+                        "ID": 64
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_2",
+                "Ordinal": 21,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 66,
+                "Inputs": [
+                    {
+                        "ID": 67
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_3",
+                "Ordinal": 22,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 87,
+                "Inputs": [
+                    {
+                        "ID": 88
+                    }
+                ],
+                "Kind": "Deco",
+                "NodeData": "BTDecoratorNode_BlackBoardCondition_3",
+                "Ordinal": 2,
+                "Outputs": [
+                    {
+                        "ID": 89
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 91,
+                "Inputs": [
+                    {
+                        "ID": 92
+                    }
+                ],
+                "Kind": "Selector",
+                "NodeData": "BTComposite_Selector_3",
+                "Ordinal": 3,
+                "Outputs": [
+                    {
+                        "ID": 93
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 95,
+                "Inputs": [
+                    {
+                        "ID": 96
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_3",
+                "Ordinal": 4,
+                "Outputs": [
+                    {
+                        "ID": 97
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 99,
+                "Inputs": [
+                    {
+                        "ID": 100
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_MoveTo_2",
+                "Ordinal": 13,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 102,
+                "Inputs": [
+                    {
+                        "ID": 103
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_4",
+                "Ordinal": 5,
+                "Outputs": [
+                    {
+                        "ID": 104
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 106,
+                "Inputs": [
+                    {
+                        "ID": 107
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_4",
+                "Ordinal": 6,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 109,
+                "Inputs": [
+                    {
+                        "ID": 110
+                    }
+                ],
+                "Kind": "Sequence",
+                "NodeData": "BTComposite_Sequence_5",
+                "Ordinal": 7,
+                "Outputs": [
+                    {
+                        "ID": 111
+                    }
+                ],
+                "Type": "Tree"
+            },
+            {
+                "ID": 113,
+                "Inputs": [
+                    {
+                        "ID": 114
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_DetectPlayer_2",
+                "Ordinal": 8,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 116,
+                "Inputs": [
+                    {
+                        "ID": 117
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ChasePlayer_2",
+                "Ordinal": 9,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 119,
+                "Inputs": [
+                    {
+                        "ID": 120
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_5",
+                "Ordinal": 10,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 122,
+                "Inputs": [
+                    {
+                        "ID": 123
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_6",
+                "Ordinal": 11,
+                "Outputs": null,
+                "Type": "Tree"
+            },
+            {
+                "ID": 125,
+                "Inputs": [
+                    {
+                        "ID": 126
+                    }
+                ],
+                "Kind": "Task",
+                "NodeData": "BTTaskNode_ActivateAbility_7",
+                "Ordinal": 12,
+                "Outputs": null,
+                "Type": "Tree"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1042 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="EditorApp.h" />
+    <ClInclude Include="PCH.h" />
+    <ClInclude Include="Editor\EditorManager.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TestObject.h">
+      <Filter>GameObjects\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Editor.h">
+      <Filter>Editor\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SceneEditor.h">
+      <Filter>Editor\Editors\SceneEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\EditorWindow.h">
+      <Filter>Editor\Widgets%28Editor%29\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\EditorWidget.h">
+      <Filter>Editor\Widgets%28Editor%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneViewportWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneViewport%28Editor%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\TargetViewer.h">
+      <Filter>Editor\Widgets%28Editor%29\TargetView</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneOutliner.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneOutliner</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneDetails.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\PropertySet.h">
+      <Filter>Editor\Widgets%28Editor%29\PropertySet</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\PropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\BoolPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\BoolPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\ComponentDetails.h">
+      <Filter>Editor\Widgets%28Editor%29\ComponentDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\TransformPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\TransformPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneComponentWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\SceneComponentWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\GuizmoWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\GuizmoWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\TAssetPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\TAssetPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ContentEditor.h">
+      <Filter>Editor\Editors\ContentEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AssetViewer.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\MaterialEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\MaterialEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\FloatPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\FloatPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\Vector2PropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V2</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\Vector3PropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V3</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\ColorPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AnimationEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\AnimationEditor%28Notify_Editor%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\MeshEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\MeshEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\CameraControlWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\CameraControlWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\StringPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\StringPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\EnumPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\EnumPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\ObjectPlacement.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\ObjectPlacement</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\ObjectListWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\ObjectListWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\GameObjectEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\GameObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneDetailWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\SceneDetailWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SubClassWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\SubClassWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SignedPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\SignedPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\CollisionPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\CollisionProfilePropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SettingEditor.h">
+      <Filter>Editor\Editors\SettingEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SettingWindow.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SettingEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\CollisionEditorWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Settings\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\InputEditorWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Settings\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\NavTool.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\NavTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\NavToolWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneInfoSetting.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneInfoSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SceneInfoEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\SceneInfoEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\ImCurveEdit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\ImGradient.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_stl.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\ImGuizmo.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\ImSequencer.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\ImZoomSlider.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\stb_image.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\GraphEditor.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AnimationSequencer.h">
+      <Filter>Editor\Widgets%28Editor%29\AnimaitonSequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AnimNotifyInfoWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AnimNotifyInfoWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifies\AnimNotify_PlaySound.h">
+      <Filter>AnimationNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="GameObject\TestCharacter.h">
+      <Filter>GameObjects\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\GameplayAbilityEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\GameplayAbility</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\GameplayEffectEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\GameplayEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\SampleAttributeSet.h">
+      <Filter>GameplaySystem\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifies\AnimNotify_SendEvent.h">
+      <Filter>AnimationNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AttributePropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AttributePropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AttributeModiferWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AttributeModiferPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\TestAbility.h">
+      <Filter>GameplaySystem\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TestHitCollison.h">
+      <Filter>GameObjects\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_canvas.h">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_node_editor.h">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_node_editor_internal.h">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_bezier_math.h">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_extra_math.h">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\crude_json.h">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\NodeEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\BT_NodeEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\BlackboardEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\BT_NodeEditor\BlackBoardEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\BBKeySelectorWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\BBKeySelectorWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TestMonster.h">
+      <Filter>GameObjects\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_MoveTo.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\WidgetEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\WidgetEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\ImGUI\imgui_freetype.h">
+      <Filter>ImGui\ImGuiFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\WidgetTransformWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\WidgetTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\AnchorPropertyWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AnchorPropertyWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\CustomUserWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player.h">
+      <Filter>GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Monster.h">
+      <Filter>GameObjects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HitBoxObject.h">
+      <Filter>GameObjects\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifies\AnimNotify_AddTag.h">
+      <Filter>AnimationNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\CharacterAttributeSet.h">
+      <Filter>GameplaySystem\AttributeSet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\GameplayAbility_Attack.h">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\GameplayAbility_ChargeAttack.h">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\GameplayAbility_ComboAttack.h">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\GameplayAbility_Evade.h">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\GameplayAbility_RunningAttack.h">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_Wait.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_DetectPlayer.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_ActivateAbility.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_ChasePlayer.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_Patrol.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_Wait5Seconds.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\BossAttributeSet.h">
+      <Filter>GameplaySystem\AttributeSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AITask\BTTaskNode_SetAnimPlayRate.h">
+      <Filter>AITask</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BossMonster.h">
+      <Filter>GameObjects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifies\AnimNotify_KillOwner.h">
+      <Filter>AnimationNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayAbility\GameplayAbility_ChargeAttack_HitCancel.h">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\MonsterSpawnObject.h">
+      <Filter>GameObjects\MonsterSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\PointLightObject.h">
+      <Filter>GameObjects\PointLight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\IInteractableInterface.h">
+      <Filter>GameObjects\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInfo\CustomSceneInfo.h">
+      <Filter>SceneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\InteractableObject.h">
+      <Filter>GameObjects\Interactable</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TeleportObject.h">
+      <Filter>GameObjects\Interactable\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SoundEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\SoundEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\SoundWidget.h">
+      <Filter>Editor\Widgets%28Editor%29\SoundWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BGMPlayer.h">
+      <Filter>GameObjects\SoundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\TitleWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\InGameWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorWidget\ParticleEditor.h">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\ParticleEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\DungeonUIWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\DungeonInfoWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\UIInteractableObject.h">
+      <Filter>GameObjects\Interactable\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\InteractionWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\BossWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget\EndWidget.h">
+      <Filter>UserWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ParticleObject.h">
+      <Filter>GameObjects\Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorApp.cpp" />
+    <ClCompile Include="PCH.cpp" />
+    <ClCompile Include="Editor\EditorManager.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestObject.cpp">
+      <Filter>GameObjects\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Editor.cpp">
+      <Filter>Editor\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SceneEditor.cpp">
+      <Filter>Editor\Editors\SceneEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\EditorWindow.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\EditorWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneViewportWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneViewport%28Editor%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\TargetViewer.cpp">
+      <Filter>Editor\Widgets%28Editor%29\TargetView</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneOutliner.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneOutliner</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneDetails.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\PropertySet.cpp">
+      <Filter>Editor\Widgets%28Editor%29\PropertySet</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\BoolPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\BoolPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\ComponentDetails.cpp">
+      <Filter>Editor\Widgets%28Editor%29\ComponentDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\PropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\TransformPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\TransformPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneComponentWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\SceneComponentWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\GuizmoWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\GuizmoWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\TAssetPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\TAssetPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ContentEditor.cpp">
+      <Filter>Editor\Editors\ContentEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AssetViewer.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\MaterialEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\MaterialEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\FloatPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\FloatPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\Vector2PropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V2</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\Vector3PropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V3</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\ColorPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AnimationEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\AnimationEditor%28Notify_Editor%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\MeshEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\MeshEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\CameraControlWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\CameraControlWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\StringPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\StringPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\EnumPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\EnumPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\ObjectPlacement.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\ObjectPlacement</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\ObjectListWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\ObjectListWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\GameObjectEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\GameObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneDetailWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\SceneDetailWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SubClassWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\SubClassWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SignedPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\SignedPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\CollisionPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\CollisionProfilePropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SettingEditor.cpp">
+      <Filter>Editor\Editors\SettingEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SettingWindow.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SettingEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\CollisionEditorWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Settings\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\InputEditorWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Settings\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\NavTool.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\NavTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\NavToolWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneInfoSetting.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\SceneEditor\SceneInfoSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SceneInfoEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\SceneInfoEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\ImGradient.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_stl.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\ImGuizmo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\ImSequencer.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\GraphEditor.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\ImCurveEdit.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AnimationSequencer.cpp">
+      <Filter>Editor\Widgets%28Editor%29\AnimaitonSequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AnimNotifyInfoWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AnimNotifyInfoWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifies\AnimNotify_PlaySound.cpp">
+      <Filter>AnimationNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestCharacter.cpp">
+      <Filter>GameObjects\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\GameplayAbilityEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\GameplayAbility</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\GameplayEffectEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\GameplayEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\SampleAttributeSet.cpp">
+      <Filter>GameplaySystem\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifies\AnimNotify_SendEvent.cpp">
+      <Filter>AnimationNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AttributePropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AttributePropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AttributeModiferWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AttributeModiferPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\TestAbility.cpp">
+      <Filter>GameplaySystem\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestHitCollison.cpp">
+      <Filter>GameObjects\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_node_editor.cpp">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_node_editor_api.cpp">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_canvas.cpp">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\crude_json.cpp">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\NodeEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\BT_NodeEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\BlackboardEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\BT_NodeEditor\BlackBoardEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\BBKeySelectorWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\BBKeySelectorWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestMonster.cpp">
+      <Filter>GameObjects\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_MoveTo.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\WidgetEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\WidgetEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\ImGUI\imgui_freetype.cpp">
+      <Filter>ImGui\ImGuiFreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\WidgetTransformWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\WidgetTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\AnchorPropertyWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Properties\AnchorPropertyWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\CustomUserWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player.cpp">
+      <Filter>GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Monster.cpp">
+      <Filter>GameObjects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HitBoxObject.cpp">
+      <Filter>GameObjects\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifies\AnimNotify_AddTag.cpp">
+      <Filter>AnimationNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\CharacterAttributeSet.cpp">
+      <Filter>GameplaySystem\AttributeSet</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\GameplayAbility_Attack.cpp">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\GameplayAbility_ChargeAttack.cpp">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\GameplayAbility_ComboAttack.cpp">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\GameplayAbility_Evade.cpp">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\GameplayAbility_RunningAttack.cpp">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_Wait.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_DetectPlayer.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_ActivateAbility.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_ChasePlayer.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_Patrol.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_Wait5Seconds.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\BossAttributeSet.cpp">
+      <Filter>GameplaySystem\AttributeSet</Filter>
+    </ClCompile>
+    <ClCompile Include="AITask\BTTaskNode_SetAnimPlayRate.cpp">
+      <Filter>AITask</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BossMonster.cpp">
+      <Filter>GameObjects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifies\AnimNotify_KillOwner.cpp">
+      <Filter>AnimationNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayAbility\GameplayAbility_ChargeAttack_HitCancel.cpp">
+      <Filter>GameplaySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\MonsterSpawnObject.cpp">
+      <Filter>GameObjects\MonsterSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\PointLightObject.cpp">
+      <Filter>GameObjects\PointLight</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInfo\CustomSceneInfo.cpp">
+      <Filter>SceneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\InteractableObject.cpp">
+      <Filter>GameObjects\Interactable</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TeleportObject.cpp">
+      <Filter>GameObjects\Interactable\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SoundEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\SoundEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\SoundWidget.cpp">
+      <Filter>Editor\Widgets%28Editor%29\SoundWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BGMPlayer.cpp">
+      <Filter>GameObjects\SoundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\TitleWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\InGameWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorWidget\ParticleEditor.cpp">
+      <Filter>Editor\Widgets%28Editor%29\Window\ContentEditor\ParticleEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\DungeonInfoWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\DungeonUIWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\UIInteractableObject.cpp">
+      <Filter>GameObjects\Interactable\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\InteractionWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\BossWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget\EndWidget.cpp">
+      <Filter>UserWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ParticleObject.cpp">
+      <Filter>GameObjects\Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{7b094240-3624-4a77-9598-9254f9636098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{1a8bd2c8-380a-4844-875c-995a319f4ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Test">
+      <UniqueIdentifier>{62edb434-af66-48ee-b7b6-4b8da8ae3753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Editors">
+      <UniqueIdentifier>{3857c2a4-a058-44f1-87b4-bf020fdedc40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Editors\SceneEditor">
+      <UniqueIdentifier>{194ec455-3fd2-44f0-a340-30a31624c797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Editors\ContentEditor">
+      <UniqueIdentifier>{623b9486-0909-4ed2-a035-392d4e5cf071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Editors\SettingEditor">
+      <UniqueIdentifier>{cfebc06b-910d-488c-bb59-629fa14bfa21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29">
+      <UniqueIdentifier>{887e2e3f-1a92-49f5-bc1c-5678df826bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window">
+      <UniqueIdentifier>{eef3248f-ce33-410c-a61b-1f1d9f02ab86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor">
+      <UniqueIdentifier>{e393701c-8776-4391-9dab-e36eb855a58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor\SceneDetails">
+      <UniqueIdentifier>{8def4da6-c797-4907-9816-1649792cda4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor\SceneOutliner">
+      <UniqueIdentifier>{76614e52-ffd9-484d-88af-b9d1e5603cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor\SceneViewport%28Editor%29">
+      <UniqueIdentifier>{a4d3a25b-1ade-4549-80b3-ffded485df54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor\ObjectPlacement">
+      <UniqueIdentifier>{fbb310cf-aac6-479d-b620-e1f4271d5a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor\NavTool">
+      <UniqueIdentifier>{3ee7ddfb-860a-40d4-a45c-fd5b79b0ce1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SceneEditor\SceneInfoSetting">
+      <UniqueIdentifier>{0f9f47bc-e232-40b7-ad7b-26361aa07197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor">
+      <UniqueIdentifier>{57801191-f157-4316-ad13-066505ff0bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\MaterialEditor">
+      <UniqueIdentifier>{84523e04-f9b8-4412-89a4-17daa6942a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\MeshEditor">
+      <UniqueIdentifier>{7735b4d5-9224-40a4-9d6f-157ce5558821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\GameObjectEditor">
+      <UniqueIdentifier>{9dcd9b18-558a-4d88-9ce5-a15ec3495d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\SceneInfoEditor">
+      <UniqueIdentifier>{6ac46bba-6e65-4b8c-9b58-055680f37fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\SettingEditor">
+      <UniqueIdentifier>{2ab8d862-f106-4179-b5e3-292dfd72fffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\PropertySet">
+      <UniqueIdentifier>{9790b057-99fa-4a48-b9ee-fbad9c4d0e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties">
+      <UniqueIdentifier>{49ed8601-9008-45ac-ae7c-a213a7f81d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\BoolPropertyWidget">
+      <UniqueIdentifier>{0a80a103-9f3c-4065-8243-4a130cc675c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget">
+      <UniqueIdentifier>{f7053445-5018-4d24-a9b0-482eb9117cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V2">
+      <UniqueIdentifier>{cb497a81-9972-4f1e-8564-82480e224e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V3">
+      <UniqueIdentifier>{6108d764-6db1-402b-9327-523eff2c6bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\V4">
+      <UniqueIdentifier>{f8f82de2-720a-4bae-aa72-a1adec544711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\VectorPropertyWidget\Color">
+      <UniqueIdentifier>{4841f3c3-8ec8-4fc0-9009-0cdd406bbc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\TransformPropertyWidget">
+      <UniqueIdentifier>{27f9360e-f642-4dbd-ab18-da0adc9d06d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\SceneComponentWidget">
+      <UniqueIdentifier>{376ba084-91d5-4e79-b7ea-59e24d6e0c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\TAssetPropertyWidget">
+      <UniqueIdentifier>{f1f0bf5d-ad5a-4e6d-ad97-835b75d195ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\FloatPropertyWidget">
+      <UniqueIdentifier>{44564c72-bf94-4db9-8bf5-2d94b5c807c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\SignedPropertyWidget">
+      <UniqueIdentifier>{88d68d5e-2bcc-45ee-bdfb-a6895fa12a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\StringPropertyWidget">
+      <UniqueIdentifier>{5b5e0756-9520-4f9d-98be-5f11fad0d51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\EnumPropertyWidget">
+      <UniqueIdentifier>{ab52ad76-5e1d-403f-a707-f84fcd3e0469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\SubClassWidget">
+      <UniqueIdentifier>{b2bfb91b-8d34-43e9-af75-88e42676ee53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\CollisionProfilePropertyWidget">
+      <UniqueIdentifier>{f56e78a0-3f85-4fdc-ae71-3bff88bcef91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\ComponentDetails">
+      <UniqueIdentifier>{6837ea35-31da-4d2b-9e21-5e3dc43f1943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\GuizmoWidget">
+      <UniqueIdentifier>{2e6dbcea-66c5-4294-ba6c-c212e2283a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\AnimaitonSequencer">
+      <UniqueIdentifier>{aebdb6ad-55a1-4ff5-95a7-27374b239ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\CameraControlWidget">
+      <UniqueIdentifier>{a8eca2b0-82ee-4972-946a-87ecc0b12eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\ObjectListWidget">
+      <UniqueIdentifier>{53e76a99-f518-4e8d-879c-10cd54fab06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\SceneDetailWidget">
+      <UniqueIdentifier>{725a9b28-4df2-444b-bbed-4dcaf8e4ce43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Settings">
+      <UniqueIdentifier>{8f7e3d8e-d4eb-4607-b72e-4d4c525e2830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Settings\Collision">
+      <UniqueIdentifier>{e6696b54-0276-45e0-be9a-46155e896d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Settings\Input">
+      <UniqueIdentifier>{8cb7179a-6bda-4fb9-83e6-0eefff5ede07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Nav">
+      <UniqueIdentifier>{aa0c3c65-3c21-4cee-9f6a-df157e08fd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{355b546b-ef30-4f4e-be7d-7f06d88cbb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimationNotify">
+      <UniqueIdentifier>{7f4b6f4a-a881-4d5f-8e80-85374777108d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\AnimationEditor%28Notify_Editor%29">
+      <UniqueIdentifier>{6ed52c4d-15b8-4e8c-bab8-3056d55f1df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\AnimNotifyInfoWidget">
+      <UniqueIdentifier>{1a300047-67de-4abc-b472-8427c4cfecf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\GameplayAbility">
+      <UniqueIdentifier>{ed06ff12-6752-475f-9506-825dddbebd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\GameplayEffect">
+      <UniqueIdentifier>{057cfb92-7f25-4a45-b45d-a2abad6953e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplaySystem">
+      <UniqueIdentifier>{cca59014-7126-4d62-b401-c43c4ed70380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplaySystem\Sample">
+      <UniqueIdentifier>{b9213a44-a3ac-4614-9ebe-19029035b673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\AttributePropertyWidget">
+      <UniqueIdentifier>{2cf0ab88-cfb5-4346-a893-c9f48a6844d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\AttributeModiferPropertyWidget">
+      <UniqueIdentifier>{05ef18ef-aa07-4c04-b996-ffe9a2210506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\ImGuiNode">
+      <UniqueIdentifier>{07fd1f45-156e-4f2e-81cd-99f40bd0eb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\BT_NodeEditor">
+      <UniqueIdentifier>{8830abee-6689-4572-8e31-ed7faaa02f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\BT_NodeEditor\BlackBoardEditor">
+      <UniqueIdentifier>{772eb87a-477e-4780-a503-de6a450faebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\BBKeySelectorWidget">
+      <UniqueIdentifier>{92741bce-9f2e-4281-b3a2-0b98f9088ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AITask">
+      <UniqueIdentifier>{40bd7024-68b9-46a3-8fe3-d311f4f8eda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\ImGuiFreeType">
+      <UniqueIdentifier>{6503bcf2-ef89-4ce6-8159-ac466459f575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\TargetView">
+      <UniqueIdentifier>{1235b135-68e2-4ad2-b125-35d4aa1646bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\WidgetEditor">
+      <UniqueIdentifier>{948a8d65-ba27-41e3-bb42-e410635884da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\WidgetTransform">
+      <UniqueIdentifier>{313cda10-470a-4ec8-ab70-d8305218fc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Properties\AnchorPropertyWidget">
+      <UniqueIdentifier>{535b4a86-dd94-4967-a10f-c4de4e6cd48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserWidgets">
+      <UniqueIdentifier>{12b7dac8-2d99-4611-9b7f-049a5febafc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Player">
+      <UniqueIdentifier>{5a7304a6-f9c5-41f8-b28e-dc4326243f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Monster">
+      <UniqueIdentifier>{9c1a00f4-f387-4154-954b-56d545947cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\HitBox">
+      <UniqueIdentifier>{a06240e0-48e8-4a42-a0eb-e092e13502e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplaySystem\AttributeSet">
+      <UniqueIdentifier>{7f811cfe-e359-43bd-a49e-8e1b4e7d2d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplaySystem\Abilities">
+      <UniqueIdentifier>{3261d58c-4a17-4c03-9fd6-04dae50d91a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MonsterSpawn">
+      <UniqueIdentifier>{e5949bf4-9a4e-49cb-bf99-f53c5fce44c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\PointLight">
+      <UniqueIdentifier>{47e9e55a-afd2-4359-9aa7-a790d8f511ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Interface">
+      <UniqueIdentifier>{32597c12-1368-4a70-ba97-04a79463cddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneInfo">
+      <UniqueIdentifier>{05699059-bf88-42c1-94b3-126c028c4cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Interactable">
+      <UniqueIdentifier>{eacad6dc-3613-4293-8a44-1b59f4db1f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Interactable\Teleport">
+      <UniqueIdentifier>{904e1ff9-2089-4531-baaf-58563eb09ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\SoundEditor">
+      <UniqueIdentifier>{526b2fc5-4861-4e79-87c4-079639a5f549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\SoundWidget">
+      <UniqueIdentifier>{f1d9b963-a5a7-4c0a-aef7-5aab571b1949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SoundObject">
+      <UniqueIdentifier>{2cbbbff6-12fd-4b27-9c07-ffac154a453a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets%28Editor%29\Window\ContentEditor\ParticleEditor">
+      <UniqueIdentifier>{5c8da3e2-7b10-4eba-a049-c8d94b170eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Interactable\UI">
+      <UniqueIdentifier>{bd2b4c6b-8c38-44ad-bba1-53253891fc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Particle">
+      <UniqueIdentifier>{d22b8b54-f3b5-48df-ba32-580034d568e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\third_party\ImGUI\imgui_node_editor_internal.inl">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </None>
+    <None Include="..\third_party\ImGUI\imgui_bezier_math.inl">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </None>
+    <None Include="..\third_party\ImGUI\imgui_extra_math.inl">
+      <Filter>ImGui\ImGuiNode</Filter>
+    </None>
+  </ItemGroup>
+</Project>

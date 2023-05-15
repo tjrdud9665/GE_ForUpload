@@ -1,0 +1,169 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{445C56C2-4B3A-441F-AC81-673E925E32F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shader", "Shader", "{D5FE6554-948F-403F-AD8C-083DE6688ADB}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\BRDF.hlsl = binaries\Resources\Shader\BRDF.hlsl
+		binaries\Resources\Shader\Debug_ps.hlsl = binaries\Resources\Shader\Debug_ps.hlsl
+		binaries\Resources\Shader\Debug_vs.hlsl = binaries\Resources\Shader\Debug_vs.hlsl
+		binaries\Resources\Shader\deferred_brdf_ambient_ps.hlsl = binaries\Resources\Shader\deferred_brdf_ambient_ps.hlsl
+		binaries\Resources\Shader\deferred_brdf_ambientIBL_ps.hlsl = binaries\Resources\Shader\deferred_brdf_ambientIBL_ps.hlsl
+		binaries\Resources\Shader\deferred_brdf_lighting_ps.hlsl = binaries\Resources\Shader\deferred_brdf_lighting_ps.hlsl
+		binaries\Resources\Shader\Deferred_Geometry_ps.hlsl = binaries\Resources\Shader\Deferred_Geometry_ps.hlsl
+		binaries\Resources\Shader\Deferred_Geometry_vs.hlsl = binaries\Resources\Shader\Deferred_Geometry_vs.hlsl
+		binaries\Resources\Shader\deferred_phong_lighting_ps.hlsl = binaries\Resources\Shader\deferred_phong_lighting_ps.hlsl
+		binaries\Resources\Shader\forward_phong_ps.hlsl = binaries\Resources\Shader\forward_phong_ps.hlsl
+		binaries\Resources\Shader\Forward_Phong_vs.hlsl = binaries\Resources\Shader\Forward_Phong_vs.hlsl
+		binaries\Resources\Shader\FullScreenQuad_vs.hlsl = binaries\Resources\Shader\FullScreenQuad_vs.hlsl
+		binaries\Resources\Shader\GaussianBlur4x4_ps.hlsl = binaries\Resources\Shader\GaussianBlur4x4_ps.hlsl
+		binaries\Resources\Shader\IntegrateBRDF_IBL_ps.hlsl = binaries\Resources\Shader\IntegrateBRDF_IBL_ps.hlsl
+		binaries\Resources\Shader\LightingCommon.hlsl = binaries\Resources\Shader\LightingCommon.hlsl
+		binaries\Resources\Shader\MVPTransformationWithUVs_vs.hlsl = binaries\Resources\Shader\MVPTransformationWithUVs_vs.hlsl
+		binaries\Resources\Shader\Phong.hlsl = binaries\Resources\Shader\Phong.hlsl
+		binaries\Resources\Shader\PreFilterConvolution_ps.hlsl = binaries\Resources\Shader\PreFilterConvolution_ps.hlsl
+		binaries\Resources\Shader\RenderIntoCubemap_ps.hlsl = binaries\Resources\Shader\RenderIntoCubemap_ps.hlsl
+		binaries\Resources\Shader\ShadingMath.hlsl = binaries\Resources\Shader\ShadingMath.hlsl
+		binaries\Resources\Shader\SSAO_ps.hlsl = binaries\Resources\Shader\SSAO_ps.hlsl
+		binaries\Resources\Shader\Tangent_ps.hlsl = binaries\Resources\Shader\Tangent_ps.hlsl
+		binaries\Resources\Shader\Tangent_vs.hlsl = binaries\Resources\Shader\Tangent_vs.hlsl
+		binaries\Resources\Shader\TextureCoordinates_ps.hlsl = binaries\Resources\Shader\TextureCoordinates_ps.hlsl
+		binaries\Resources\Shader\TNB_gs.hlsl = binaries\Resources\Shader\TNB_gs.hlsl
+		binaries\Resources\Shader\TNB_ps.hlsl = binaries\Resources\Shader\TNB_ps.hlsl
+		binaries\Resources\Shader\TNB_vs.hlsl = binaries\Resources\Shader\TNB_vs.hlsl
+		binaries\Resources\Shader\Tonemapping_ps.hlsl = binaries\Resources\Shader\Tonemapping_ps.hlsl
+		binaries\Resources\Shader\UnlitTextureColor_ps.hlsl = binaries\Resources\Shader\UnlitTextureColor_ps.hlsl
+		binaries\Resources\Shader\UnlitTextureColor_vs.hlsl = binaries\Resources\Shader\UnlitTextureColor_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug_LINE", "Debug_LINE", "{40CB9B61-454A-4034-8D12-77432A29A4CA}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Line_gs.hlsl = binaries\Resources\Shader\Line_gs.hlsl
+		binaries\Resources\Shader\Line_ps.hlsl = binaries\Resources\Shader\Line_ps.hlsl
+		binaries\Resources\Shader\Line_vs.hlsl = binaries\Resources\Shader\Line_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Depth", "Depth", "{B97F26FC-48B6-485C-87B7-49251E7DC725}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\DepthShader_ps.hlsl = binaries\Resources\Shader\DepthShader_ps.hlsl
+		binaries\Resources\Shader\DepthShader_vs.hlsl = binaries\Resources\Shader\DepthShader_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Normal", "Normal", "{2E3F52A3-3C3E-4FD8-ADAF-05319FA69DD8}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Normal_ps.hlsl = binaries\Resources\Shader\Normal_ps.hlsl
+		binaries\Resources\Shader\Normal_vs.hlsl = binaries\Resources\Shader\Normal_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skinning", "Skinning", "{D3FF04E4-1BA8-4476-AC5C-48069372F0F5}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\AnimationUpdate_cs.hlsl = binaries\Resources\Shader\AnimationUpdate_cs.hlsl
+		binaries\Resources\Shader\Skinning.hlsl = binaries\Resources\Shader\Skinning.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binormal", "Binormal", "{6DDF0FB7-257A-4D65-AF62-86598824A457}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Binormal_ps.hlsl = binaries\Resources\Shader\Binormal_ps.hlsl
+		binaries\Resources\Shader\Binormal_vs.hlsl = binaries\Resources\Shader\Binormal_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sky", "Sky", "{1C56AC1A-0361-4913-A3F1-55F8BEA8DD54}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Skybox_ps.hlsl = binaries\Resources\Shader\Skybox_ps.hlsl
+		binaries\Resources\Shader\Skybox_vs.hlsl = binaries\Resources\Shader\Skybox_vs.hlsl
+		binaries\Resources\Shader\SkyboxEquirectangular_ps.hlsl = binaries\Resources\Shader\SkyboxEquirectangular_ps.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug_Solid", "Debug_Solid", "{FD063ED5-6D32-494D-970F-77FF31B8D8E7}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Solid_gs.hlsl = binaries\Resources\Shader\Solid_gs.hlsl
+		binaries\Resources\Shader\Solid_ps.hlsl = binaries\Resources\Shader\Solid_ps.hlsl
+		binaries\Resources\Shader\Solid_vs.hlsl = binaries\Resources\Shader\Solid_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{6926413C-B7D2-4DBB-A99D-D9A9737278CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FXAA", "FXAA", "{E7598D7A-66C6-4589-B1EF-CA1E52F8B772}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\FxAA_ps.hlsl = binaries\Resources\Shader\FxAA_ps.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shadow", "Shadow", "{50519A4F-6269-4DC6-A0D5-DBA3204665B8}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\ShadowCubeMapShader_ps.hlsl = binaries\Resources\Shader\ShadowCubeMapShader_ps.hlsl
+		binaries\Resources\Shader\ShadowCubeMapShader_vs.hlsl = binaries\Resources\Shader\ShadowCubeMapShader_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{2E49DACC-242D-4704-8F01-266BFD836517}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Text_ps.hlsl = binaries\Resources\Shader\Text_ps.hlsl
+		binaries\Resources\Shader\Text_vs.hlsl = binaries\Resources\Shader\Text_vs.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Particle", "Particle", "{D024B49B-40D2-4CFA-B3DF-8ECDA6948CAF}"
+	ProjectSection(SolutionItems) = preProject
+		binaries\Resources\Shader\Particle.hlsl = binaries\Resources\Shader\Particle.hlsl
+		binaries\Resources\Shader\ParticleRender_gs.hlsl = binaries\Resources\Shader\ParticleRender_gs.hlsl
+		binaries\Resources\Shader\ParticleRender_ps.hlsl = binaries\Resources\Shader\ParticleRender_ps.hlsl
+		binaries\Resources\Shader\ParticleRender_vs.hlsl = binaries\Resources\Shader\ParticleRender_vs.hlsl
+		binaries\Resources\Shader\ParticleUpdate_cs.hlsl = binaries\Resources\Shader\ParticleUpdate_cs.hlsl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Debug|x64.ActiveCfg = Debug|x64
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Debug|x64.Build.0 = Debug|x64
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Debug|x86.ActiveCfg = Debug|Win32
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Debug|x86.Build.0 = Debug|Win32
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Release|x64.ActiveCfg = Release|x64
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Release|x64.Build.0 = Release|x64
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Release|x86.ActiveCfg = Release|Win32
+		{4099D6BA-D9B1-4BFB-A96A-FD80875AEBB6}.Release|x86.Build.0 = Release|Win32
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Debug|x64.ActiveCfg = Debug|x64
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Debug|x64.Build.0 = Debug|x64
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Debug|x86.Build.0 = Debug|Win32
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Release|x64.ActiveCfg = Release|x64
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Release|x64.Build.0 = Release|x64
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Release|x86.ActiveCfg = Release|Win32
+		{445C56C2-4B3A-441F-AC81-673E925E32F4}.Release|x86.Build.0 = Release|Win32
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Debug|x64.ActiveCfg = Debug|x64
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Debug|x64.Build.0 = Debug|x64
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Debug|x86.Build.0 = Debug|Win32
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Release|x64.ActiveCfg = Release|x64
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Release|x64.Build.0 = Release|x64
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Release|x86.ActiveCfg = Release|Win32
+		{6926413C-B7D2-4DBB-A99D-D9A9737278CF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40CB9B61-454A-4034-8D12-77432A29A4CA} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{B97F26FC-48B6-485C-87B7-49251E7DC725} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{2E3F52A3-3C3E-4FD8-ADAF-05319FA69DD8} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{D3FF04E4-1BA8-4476-AC5C-48069372F0F5} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{6DDF0FB7-257A-4D65-AF62-86598824A457} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{1C56AC1A-0361-4913-A3F1-55F8BEA8DD54} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{FD063ED5-6D32-494D-970F-77FF31B8D8E7} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{E7598D7A-66C6-4589-B1EF-CA1E52F8B772} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{50519A4F-6269-4DC6-A0D5-DBA3204665B8} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{2E49DACC-242D-4704-8F01-266BFD836517} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+		{D024B49B-40D2-4CFA-B3DF-8ECDA6948CAF} = {D5FE6554-948F-403F-AD8C-083DE6688ADB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76639B36-3385-4522-AFCC-92C9397F22DA}
+	EndGlobalSection
+EndGlobal
